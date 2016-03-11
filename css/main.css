@@ -15,7 +15,7 @@ html {
 }
 
 .grains li {
-  padding: 15px;
+  padding-bottom: 15px;
   margin-bottom: 10px;
 }
 
@@ -23,7 +23,7 @@ html {
   width: 100px;
   float: left;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .grains h2 {
@@ -32,7 +32,6 @@ html {
 }
 
 .grains p {
-  display: inline-block;
   font-style: italic;
   margin: 0;
 }
