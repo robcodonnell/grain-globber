@@ -9,6 +9,6 @@ grains.forEach(function (grain) {
   $name.html(grain.name);
   $img.attr('src', 'images/' + grain.img);
   $p.html(grain.desc);
-  $li.append($name, $img, $p);
+  $li.append($img, $name, $p);
   $ul.append($li);
 });
